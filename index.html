@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D Challenge</title>
+    <script src='javascript.js'></script>
+    <style>
+      #carOne {
+        position: absolute;
+        left: 100px;
+        top: 120px;
+      }
+      #carTwo {
+        position: absolute;
+        left: 200px;
+        top: 60px;
+      }
+      #carThree {
+        position: absolute;
+        left: 300px;
+        top: 0px;
+      }
+      #lightDisplay {
+        position: absolute;
+        background-color: green;
+        top: 248px;
+        left: 10px;
+      }
+      #counterDisplay {
+        width: 150px;
+      }
+      hr {
+        border-width: 1px;
+        width: 100%;
+        position: absolute;
+        top: 260px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <button onclick="advanceCounter()" id="counterDisplay">Click to advance counter</button>
+    <button id="lightDisplay"> Light </button>
+    <button id="carOne"> Car #1 </button>
+    <button id="carTwo"> Car #2 </button>
+    <button id="carThree"> Car #3 </button>
+    <hr>
+  </body>
+</html>
